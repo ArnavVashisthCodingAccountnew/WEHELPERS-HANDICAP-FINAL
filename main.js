@@ -62,7 +62,7 @@ function gotResult(error, results) {
     else if(gesture == "Welcome")
     {
       toSpeak = "Welcome To Bharat! The most diverse country you have ever seen, the biggest tech hub of the world.";
-      document.getElementById("result_object_gesture_icon").innerHTML = "&#bdd8c0;";
+   
     }
 
     speak();
